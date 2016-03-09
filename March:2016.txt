@@ -1,0 +1,7 @@
+Programming (Java): 0.0524025996526
+Finance (MS Excel): 0.0563966035843
+Programming (Java): 0.113724764188
+Web Development: 0.158395000299
+Mathematics: 0.136664779981
+Programming (Python): 0.0589253505071
+Programming (Other): 0.052395983537
