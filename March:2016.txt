@@ -20,3 +20,9 @@ Web Development: 112.959737786
 Web Development: 145.582056733
 Web Development: 95.8629689177
 Languages (Norwegian): 34.0557297825813
+Languages (Norwegian): 9.70870325168
+Finance (General): 13.4200199525
+Languages (Other): 6.38642120361
+Languages (Norwegian): 41.0700253844
+Web Development: 122.075165534
+Web Development: 97.7754656514
