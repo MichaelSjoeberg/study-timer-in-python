@@ -19,3 +19,4 @@ Web Development: 16.1028432488
 Web Development: 112.959737786
 Web Development: 145.582056733
 Web Development: 95.8629689177
+Languages (Norwegian): 34.0557297825813

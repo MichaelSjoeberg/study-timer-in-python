@@ -47,7 +47,7 @@ def checkQuery(s):
 	if s == '':
 		createDiagram()
 
-	elif int(s) > 0 and int(s) < 8:
+	elif int(s) > 0 and int(s) <= len(subject_dict):
 		check = raw_input("\nYou're studying " + subject_dict[str(s)] + "." + " Is that correct? (Y/N)" + ">\t")
 		if check == "Y" or check == "y":
 			start = default_timer()
@@ -107,10 +107,10 @@ def createDiagram():
 			labels = labels + (subject_dict[str(s)],)
 			fracs = fracs + (data_dict[str(s)] / total_time,)
 
-	# colors = ['yellowgreen', 'lightskyblue', 'lightcoral']
+	colors = ['yellowgreen', 'lightskyblue', 'lightcoral', 'aliceblue', 'seagreen', 'turquoise' ,'papayawhip', 'saddlebrown', 'powderblue', 'plum']
 	# explode = (0, 0, 0, 0, 0, 0, 0)
 
-	pie(fracs, labels=labels,
+	pie(fracs, labels=labels, colors=colors,
 	                autopct='%1.1f%%', shadow=False, startangle=90)
 	                # The default startangle is 0, which would start
 	                # the Frogs slice on the x-axis.  With startangle=90,
@@ -124,12 +124,15 @@ def createDiagram():
 ##### END FUNCTIONS #####
 
 subject_dict = {
-	'1': 'Mathematics',
-	'2': 'Programming (Python)',
-	'3': 'Programming (Java)',
-	'4': 'Programming (Other)',
-	'5': 'Web Development',
-	'6': 'Finance (MS Excel)',
-	'7': 'Finance (General)'}
+	'1'	: 'Mathematics',
+	'2'	: 'Programming (Python)',
+	'3'	: 'Programming (Java)',
+	'4'	: 'Programming (Other)',
+	'5'	: 'Web Development',
+	'6'	: 'Finance (MS Excel)',
+	'7'	: 'Finance (General)',
+	'8'	: 'Languages (German)',
+	'9'	: 'Languages (Norwegian)', 
+	'10': 'Languages (Other)'}
 
 query()
