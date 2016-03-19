@@ -1,0 +1,10 @@
+Mathematics: 20.00
+Programming (Python): 20.00
+Programming (Java): 20.00
+Programming (Other): 20.00
+Web Development: 20.00
+Finance (MS Excel): 20.00
+Finance (General): 20.00
+Languages (German): 20.00
+Languages (Norwegian): 20.00
+Languages (Other): 20.00
