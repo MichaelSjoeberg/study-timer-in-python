@@ -12,18 +12,21 @@ subject_dict = config.subjects()
 def stopTimer(s,t):
 	"Take a snapshot of system time and write total time to file."
 
-	stop = raw_input("\nEnter 'stop' to stop timer.\n\n" + ">\t")
+	while raw_input("\nEnter 'stop' to stop timer.\n\n" + ">\t") != "stop":
+		# keep asking
+		continue
 
-	if stop == "stop" or stop == "Stop" or stop == "STOP":
-	    duration = default_timer() - t
+	# calculate study time
+	duration = default_timer() - t
 
-	    # create new txt-file and store the data
-	    file = open(time.strftime("%B:%Y") + ".txt", "a")
-	    file.write(subject_dict[s] + ": " + str(duration / 60) + "\n")
-	    file.close()
+	# create new or append existing txt-file to store data
+	file = open(time.strftime("%B:%Y") + ".txt", "a")
+	file.write(subject_dict[s] + ": " + str(duration / 60) + "\n")
+	file.close()
 
-	    print "\nGood job! You studied " + subject_dict[s] + " for a total of " + str(int(duration / 60)) + " minutes."
+	print "\nGood job! You studied " + subject_dict[s] + " for a total of " + str(int(duration / 60)) + " minutes."
 
+	# type enter to continue
 	again = raw_input("\nPress ENTER to continue.\n\n" + ">\t")
 	if again == "" or len(again) > 0:
 		query(s)
