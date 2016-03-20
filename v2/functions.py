@@ -21,7 +21,7 @@ def stopTimer(s,t):
 
 	# create new or append existing txt-file to store data
 	file = open(time.strftime("%B:%Y") + ".txt", "a")
-	file.write(subject_dict[s] + ": " + str(duration / 60) + "\n")
+	file.write(time.strftime("%a %d") + " - " + subject_dict[s] + ": " + str(duration / 60) + "\n")
 	file.close()
 
 	print "\nGood job! You studied " + subject_dict[s] + " for a total of " + str(int(duration / 60)) + " minutes."
