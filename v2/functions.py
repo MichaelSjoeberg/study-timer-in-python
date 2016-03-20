@@ -67,6 +67,10 @@ def checkQuery(s):
 			diagram.createDiagram(subject_dict, time.strftime("%B"))
 			query()
 
+		elif s == 'January' or s == 'February' or s == 'March' or s == 'April' or s == 'May' or s == 'June' or s == 'July' or s == 'August' or s == 'September' or s == 'October' or s == 'November' or s == 'December':
+			diagram.createDiagram(subject_dict, s)
+			query()
+
 		# validate input and act accordingly
 		elif int(s) > 0 and int(s) <= len(subject_dict):
 			check = raw_input("\nYou're studying " + subject_dict[str(s)] + "." + " Is that correct? (Y/N)" + ">\t")

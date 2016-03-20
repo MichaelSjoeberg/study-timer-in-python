@@ -65,7 +65,7 @@ def createDiagram(subject_dict, month):
 	                # everything is rotated counter-clockwise by 90 degrees,
 	                # so the plotting starts on the positive y-axis.
 
-	title("Study timer for " + time.strftime("%B %Y"), bbox={'facecolor':'1', 'pad':28, 'alpha':0})
+	title("Study timer for " + month + " " + time.strftime("%Y"), bbox={'facecolor':'1', 'pad':28, 'alpha':0})
 	show()
 
 	return
