@@ -44,8 +44,7 @@ def query():
 			print "\t" + str(n) + ". " + subject_dict[str(n)] + "\n"
 			n = n + 1
 		print "---------------- By Michael Sjoeberg ----------------\n"
-
-		subject = raw_input("What are we studying today (press ENTER for Diagram)?\n\n" + ">\t")
+		subject = raw_input("What are we studying today (press enter for current month diagram)?\n\n" + ">\t")
 
 		# validate input
 		checkQuery(subject)
@@ -65,7 +64,7 @@ def checkQuery(s):
 	try:
 		# display diagram if input is blank
 		if s == '':
-			diagram.createDiagram(subject_dict)
+			diagram.createDiagram(subject_dict, time.strftime("%B"))
 			query()
 
 		# validate input and act accordingly

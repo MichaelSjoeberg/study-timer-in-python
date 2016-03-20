@@ -5,7 +5,7 @@ import time
 from pylab import *
 
 # function for creating diagram
-def createDiagram(subject_dict):
+def createDiagram(subject_dict, month):
 	"Collect data from file and create a diagram."
 
 	total_time = 0
@@ -19,7 +19,7 @@ def createDiagram(subject_dict):
 		data_dict[s] = 0
 
 		# open txt-file based on time, requires time plugins
-		timer_file = open(time.strftime("%B:%Y") + ".txt", "r")
+		timer_file = open(month + time.strftime(":%Y") + ".txt", "r")
 
 		# open demo txt-file
 		# timer_file = open("demo" + ".txt", "r")
@@ -65,7 +65,7 @@ def createDiagram(subject_dict):
 	                # everything is rotated counter-clockwise by 90 degrees,
 	                # so the plotting starts on the positive y-axis.
 
-	title("Study timer for " + time.strftime("%B %Y"), bbox={'facecolor':'1', 'pad':28})
+	title("Study timer for " + time.strftime("%B %Y"), bbox={'facecolor':'1', 'pad':28, 'alpha':0})
 	show()
 
 	return
