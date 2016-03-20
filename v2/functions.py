@@ -21,7 +21,7 @@ def stopTimer(s,t):
 
 	# create new or append existing txt-file to store data
 	file = open(time.strftime("%B:%Y") + ".txt", "a")
-	file.write(subject_dict[s] + ": " + str(duration / 60) + "\n")
+	file.write(time.strftime("%a %d") + " - " + subject_dict[s] + ": " + str(duration / 60) + "\n")
 	file.close()
 
 	print "\nGood job! You studied " + subject_dict[s] + " for a total of " + str(int(duration / 60)) + " minutes."
@@ -44,8 +44,7 @@ def query():
 			print "\t" + str(n) + ". " + subject_dict[str(n)] + "\n"
 			n = n + 1
 		print "---------------- By Michael Sjoeberg ----------------\n"
-
-		subject = raw_input("What are we studying today (press ENTER for Diagram)?\n\n" + ">\t")
+		subject = raw_input("What are we studying today (press enter for current month diagram)?\n\n" + ">\t")
 
 		# validate input
 		checkQuery(subject)
@@ -65,7 +64,11 @@ def checkQuery(s):
 	try:
 		# display diagram if input is blank
 		if s == '':
-			diagram.createDiagram(subject_dict)
+			diagram.createDiagram(subject_dict, time.strftime("%B"))
+			query()
+
+		elif s == 'January' or s == 'February' or s == 'March' or s == 'April' or s == 'May' or s == 'June' or s == 'July' or s == 'August' or s == 'September' or s == 'October' or s == 'November' or s == 'December':
+			diagram.createDiagram(subject_dict, s)
 			query()
 
 		# validate input and act accordingly

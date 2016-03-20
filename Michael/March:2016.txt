@@ -26,3 +26,4 @@ Languages (Other): 6.38642120361
 Languages (Norwegian): 41.0700253844
 Web Development: 122.075165534
 Web Development: 97.7754656514
+Programming (Python): 172.113332335

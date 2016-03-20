@@ -1,8 +1,11 @@
 # import dependencies
+import sys, traceback
+from timeit import default_timer
+import time
 from pylab import *
 
 # function for creating diagram
-def createDiagram(subject_dict):
+def createDiagram(subject_dict, month):
 	"Collect data from file and create a diagram."
 
 	total_time = 0
@@ -15,15 +18,17 @@ def createDiagram(subject_dict):
 		# initialise total for key
 		data_dict[s] = 0
 
-		# open txt-file
-		# timer_file = open(time.strftime("%B:%Y") + ".txt", "r")
-		timer_file = open("demo" + ".txt", "r")
+		# open txt-file based on time, requires time plugins
+		timer_file = open(month + time.strftime(":%Y") + ".txt", "r")
+
+		# open demo txt-file
+		# timer_file = open("demo" + ".txt", "r")
 
 		# split lines into sections
 		for line in timer_file:
 
 			# find and add math times
-			if line.startswith(subject_dict[str(s)]):
+			if subject_dict[str(s)] in line:
 				section = line.split(":")
 				t = section[1]
 				t = t[:-2]
@@ -31,6 +36,8 @@ def createDiagram(subject_dict):
 				# add to total
 				data_dict[s] = float(data_dict[s]) + float(t)
 				total_time = total_time + float(t)
+
+		timer_file.close()
 
 	# make a square figure and axes
 	figure(1, figsize=(10,8))
@@ -58,7 +65,7 @@ def createDiagram(subject_dict):
 	                # everything is rotated counter-clockwise by 90 degrees,
 	                # so the plotting starts on the positive y-axis.
 
-	title('Study time distribution', bbox={'facecolor':'1', 'pad':28})
+	title("Study timer for " + month + " " + time.strftime("%Y"), bbox={'facecolor':'1', 'pad':28, 'alpha':0})
 	show()
 
 	return
