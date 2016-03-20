@@ -1,8 +1,6 @@
 
-# function for subjects
+# function for creating subject dictionary
 def subjects():
-	"Create dictionary with subjects."
-
 	subject_dict = {
 		'1'	: 'Mathematics',
 		'2'	: 'Programming (Python)',
@@ -14,5 +12,5 @@ def subjects():
 		'8'	: 'Languages (German)',
 		'9'	: 'Languages (Norwegian)', 
 		'10': 'Languages (Other)'}
-		
+
 	return subject_dict
