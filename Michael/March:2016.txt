@@ -37,3 +37,5 @@ Languages (Norwegian): 22.6890105486
 Languages (Norwegian): 33.9028191805
 Languages (German): 16.6802940329
 Programming (Other): 142.352395983
+Languages (Other): 51.3377641201
+Programming (Other): 166.345395799
