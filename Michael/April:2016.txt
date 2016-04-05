@@ -1,6 +1,7 @@
-Programming (Java): 62.7122324467
-Mathematics: 70.0047085683
-Programming (Java): 417.464899751
-Programming (Java): 2.11058475176
-Mathematics: 14.9430353006
-Mathematics: 203.944903282
+Sat 2 - Programming (Java): 62.7122324467
+Sat 2 - Mathematics: 70.0047085683
+Sun 3 - Programming (Java): 417.464899751
+Mon 4 - Programming (Java): 2.11058475176
+Mon 4 - Mathematics: 14.9430353006
+Mon 4 - Mathematics: 203.944903282
+Tue 5 - Mathematics: 3.67679431836
