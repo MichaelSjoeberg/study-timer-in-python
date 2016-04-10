@@ -18,3 +18,4 @@ Sat 09 - Web Development: 115.421917367
 Sat 09 - Web Development: 30.2412556489
 Sat 09 - Web Development: 145.305350033
 Sun 10 - Programming (Python): 36.9815129677
+Sun 10 - Mathematics: 113.680940167
