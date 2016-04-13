@@ -20,3 +20,6 @@ Sat 09 - Web Development: 145.305350033
 Sun 10 - Programming (Python): 36.9815129677
 Sun 10 - Mathematics: 113.680940167
 Tue 12 - Mathematics: 495.593331651
+Wed 13 - Mathematics: 53.0290658633
+Wed 13 - Mathematics: 107.403784204
+Wed 13 - Mathematics: 62.0689517657
