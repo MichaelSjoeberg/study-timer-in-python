@@ -30,3 +30,4 @@ Thu 14 - Mathematics: 29.813647898
 Thu 14 - Mathematics: 103.627453899
 Thu 14 - Mathematics: 108.4509076
 Thu 14 - Programming (Python): 68.8627334515
+Fri 15 - Web Development: 387.601292765
