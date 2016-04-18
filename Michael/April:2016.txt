@@ -32,3 +32,5 @@ Thu 14 - Mathematics: 108.4509076
 Thu 14 - Programming (Python): 68.8627334515
 Fri 15 - Web Development: 387.601292765
 Sun 17 - Mathematics: 239.348803818
+Mon 18 - Web Development: 226.862087552
+Mon 18 - Programming (Java): 318.777583734
