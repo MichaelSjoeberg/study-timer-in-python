@@ -39,3 +39,4 @@ Tue 19 - Programming (Java): 180.377180898
 Wed 20 - Web Development: 91.5264675021
 Thu 21 - Web Development: 116.14591128
 Thu 21 - Web Development: 381.280982117
+Thu 21 - Web Development: 119.796253316
