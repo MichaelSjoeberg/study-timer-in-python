@@ -2,3 +2,4 @@ Thu 05 - Programming (Other): 637.15152797
 Fri 06 - Programming (Other): 95.6610796014
 Sat 07 - Programming (Other): 262.539984985
 Sun 08 - Web Development: 238.771898484
+Mon 09 - Finance (General): 93.8721583168
