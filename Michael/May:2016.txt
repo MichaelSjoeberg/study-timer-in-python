@@ -4,3 +4,6 @@ Sat 07 - Programming (Other): 262.539984985
 Sun 08 - Web Development: 238.771898484
 Mon 09 - Finance (General): 93.8721583168
 Thu 12 - Finance (MS Excel): 82.7931462487
+Thu 12 - Finance (General): 167.593443815
+Fri 13 - Finance (General): 126.844748386
+Fri 13 - Programming (Python): 174.765921867
