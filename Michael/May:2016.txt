@@ -8,3 +8,4 @@ Thu 12 - Finance (General): 167.593443815
 Fri 13 - Finance (General): 126.844748386
 Fri 13 - Programming (Python): 174.765921867
 Sun 15 - Finance (General): 158.844938334
+Mon 16 - Finance (General): 384.073865815
