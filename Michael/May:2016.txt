@@ -12,3 +12,4 @@ Mon 16 - Finance (General): 384.073865815
 Wed 18 - Programming (Python): 8.94910424948
 Wed 18 - Finance (General): 93.0232154648
 Wed 18 - Programming (Python): 10.5578640342
+Wed 18 - Programming (Python): 34.5845409513
