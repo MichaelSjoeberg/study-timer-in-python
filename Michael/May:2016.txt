@@ -16,3 +16,5 @@ Wed 18 - Programming (Python): 34.5845409513
 Fri 20 - Web Development: 402.996569435
 Fri 20 - Web Development: 246.085071818
 Fri 20 - Web Development: 273.947531915
+Sun 22 - Programming (Python): 76.5004702171
+Mon 23 - Web Development: 453.936986351
