@@ -22,3 +22,4 @@ Tue 24 - Web Development: 87.8557323535
 Tue 24 - Programming (Java): 353.063385618
 Thu 26 - Web Development: 91.5750885328
 Thu 26 - Mathematics: 235.748607417
+Fri 27 - Mathematics: 109.960962149
