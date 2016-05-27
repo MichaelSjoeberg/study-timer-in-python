@@ -26,3 +26,4 @@ Fri 27 - Mathematics: 109.960962149
 Fri 27 - Web Development: 253.844074651
 Fri 27 - Programming (Java): 44.7024005493
 Fri 27 - Programming (Java): 95.0410573165
+Sat 28 - Finance (General): 16.2933663845
