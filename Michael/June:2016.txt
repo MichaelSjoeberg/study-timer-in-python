@@ -2,3 +2,4 @@ Wed 01 - Programming (Java): 321.145633268
 Thu 02 - Programming (Java): 99.8648256143
 Thu 02 - Programming (Java): 52.4663058162
 Fri 03 - Programming (Java): 102.893219352
+Fri 03 - Programming (Python): 327.311488819
