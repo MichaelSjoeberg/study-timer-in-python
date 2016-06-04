@@ -4,3 +4,4 @@ Thu 02 - Programming (Java): 52.4663058162
 Fri 03 - Programming (Java): 102.893219352
 Fri 03 - Programming (Python): 327.311488819
 Sat 04 - Programming (Python): 155.41011825
+Sat 04 - Programming (Java): 67.2233304501
