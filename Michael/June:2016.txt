@@ -7,3 +7,4 @@ Sat 04 - Programming (Python): 155.41011825
 Sat 04 - Programming (Java): 67.2233304501
 Sun 05 - Mathematics: 107.330487967
 Sun 05 - Mathematics: 54.0344662348
+Mon 06 - Programming (Java): 207.73165772
