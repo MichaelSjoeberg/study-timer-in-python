@@ -24,7 +24,7 @@ def stopTimer(s,t):
 	file.write(time.strftime("%a %d") + " - " + subject_dict[s] + ": " + str(duration / 60) + "\n")
 	file.close()
 
-	print "\nGood job! You studied " + subject_dict[s] + " for a total of " + str(int(duration / 60)) + " minutes."
+	print ("\nGood job! You studied " + subject_dict[s] + " for a total of " + str(int(duration / 60)) + " minutes.")
 
 	# type enter to continue
 	again = raw_input("\nPress ENTER to continue.\n\n" + ">\t")
@@ -36,21 +36,21 @@ def query():
 	"Display subjects and ask user for input, then validate input."
 
 	try:
-		print "\n\n------------------- Study Timer -------------------\n" + "Subjects:\n"
+		print ("\n\n------------------- Study Timer -------------------\n" + "Subjects:\n")
 
 		# display all subjects in imported subject dictionnary
 		n = 1
 		for s in subject_dict:
-			print "\t" + str(n) + ". " + subject_dict[str(n)] + "\n"
+			print ("\t" + str(n) + ". " + subject_dict[str(n)] + "\n")
 			n = n + 1
-		print "---------------- By Michael Sjoeberg ----------------\n"
+		print ("---------------- By Michael Sjoeberg ----------------\n")
 		subject = raw_input("What are we studying today (press enter for current month diagram)?\n\n" + ">\t")
 
 		# validate input
 		checkQuery(subject)
 
 	except KeyboardInterrupt:
-		print "\n\nExiting...  See you!\n"
+		print ("\n\nExiting...  See you!\n")
 
 	except Exception:
 		traceback.print_exc(file=sys.stdout)
@@ -78,12 +78,12 @@ def checkQuery(s):
 			# start timer if correct
 			if check == "Y" or check == "y":
 				start = default_timer()
-				print "\nOK! Good luck!"
+				print ("\nOK! Good luck!")
 				stopTimer(s,start)
 
 			# ask for subject again if incorrect
 			if check == "N" or check == "n":
-				print "Let's try again..."
+				print ("Let's try again...")
 				query()
 
 			# ask again if none of above
@@ -92,7 +92,7 @@ def checkQuery(s):
 				checkQuery(s)
 
 	except Exception:
-		print "\n\nNot a valid input, please try again.\n"
+		print ("\n\nNot a valid input, please try again.\n")
 		query()
 
 
