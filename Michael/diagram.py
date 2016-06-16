@@ -2,6 +2,7 @@
 import sys, traceback
 from timeit import default_timer
 import time
+from matplotlib import pylab
 from pylab import *
 
 # function for creating diagram
