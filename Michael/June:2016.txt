@@ -9,3 +9,4 @@ Sun 05 - Mathematics: 107.330487967
 Sun 05 - Mathematics: 54.0344662348
 Mon 06 - Programming (Java): 207.73165772
 Mon 06 - Mathematics: 74.163202703
+Fri 17 - Web Development: 193.170450532
