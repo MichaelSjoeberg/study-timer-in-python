@@ -10,3 +10,6 @@ Sun 05 - Mathematics: 54.0344662348
 Mon 06 - Programming (Java): 207.73165772
 Mon 06 - Mathematics: 74.163202703
 Fri 17 - Web Development: 193.170450532
+Wed 22 - Programming (Java): 0.0800071676572
+Fri 24 - Finance (General): 112.849458102
+Fri 24 - Finance (General): 30.0407260974
