@@ -14,3 +14,4 @@ Wed 22 - Programming (Java): 0.0800071676572
 Fri 24 - Finance (General): 112.849458102
 Fri 24 - Finance (General): 30.0407260974
 Fri 24 - Finance (General): 68.6686131001
+Sat 25 - Finance (General): 15.9149747332
