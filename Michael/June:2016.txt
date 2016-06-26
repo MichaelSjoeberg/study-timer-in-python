@@ -17,3 +17,4 @@ Fri 24 - Finance (General): 68.6686131001
 Sat 25 - Finance (General): 15.9149747332
 Sat 25 - Finance (General): 16.1801642179
 Sat 25 - Programming (Python): 16.3281374335
+Sat 25 - Finance (General): 27.5065738519
