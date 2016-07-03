@@ -20,3 +20,4 @@ Sat 25 - Programming (Python): 16.3281374335
 Sat 25 - Finance (General): 27.5065738519
 Tue 28 - Finance (MS Excel): 118.622166185
 Wed 29 - Finance (MS Excel): 81.623082451
+Wed 29 - Finance (MS Excel): 76.5357290665
